@@ -5,7 +5,7 @@ We'll be loosely follow the introduction to Rails video from the rubyonrails.org
 1. Make sure docker is running
 2. Open a terminal and navigate the directory on your computer containing this repository. 
 3. `docker-compose run app rails new . --force --database=mysql` generate all the base rails application files.
-4. replaced the `config/database.yml` with `SavedFiles/database.yml
+4. replaced the `config/database.yml` with `SavedFiles/database.yml`
 5. `docker-compose run app bin/rails db:create` to create the database
 6. `docker-compose build` build our docker image 
 7. `docker-compose up -d` start our docker image
